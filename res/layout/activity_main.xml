@@ -27,7 +27,7 @@
         android:text="@string/hitokoto_register" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/edtHitokoto"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btnMente"
             style="android:attr/buttonBarbuttonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             android:text="@string/mente" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnReg"
             style="android:attr/buttonBarbuttonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnChk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
