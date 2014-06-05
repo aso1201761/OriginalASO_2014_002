@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OriginalASO_2014_002</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hiokoto">今日の一言</string>
+    <string name="Register">登録</string>
+    <string name="hitokoto_register">ひとことを登録</string>
+    <string name="mente">メンテ</string>
+    <string name="check">ひとことチェック</string>
+    <string name="back">戻る</string>
+    <string name="delete">削除</string>
+
+</resources>
