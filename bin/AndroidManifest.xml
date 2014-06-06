@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="jp.ac.st.asojuku.original2014002.WordActivity" android:label="@sting/app_name">
+        <activity android:name="jp.ac.st.asojuku.original2014002.WordActivity" android:label="@string/app_name">
         	<intent-filter>
         		<action android:name="android.intent.action.MAIN"></action>
         		<category android:name="android.intent.category.LAUNCHER"></category></intent-filter></activity>
