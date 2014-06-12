@@ -43,11 +43,13 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 	
 	public void insertHitokoto(SQLiteDatabase db,String inputMsg){
 		
-		String sqlstr = " insert into Hitokoto (phrase) values(" + inputMsg + ");";
+		String sqlstr = "insert into Hitokoto (phrase) values('" + inputMsg + "');";
 			try{
 				//トランザクション開始
 				db.beginTransaction();
 				db.execSQL(sqlstr);
+				//トランザクション成功
+				db.setTransactionSuccessful();
 			}catch (SQLException e){
 				Log.e("ERROR",e.toString());
 			}finally{
@@ -61,7 +63,7 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 		
 		String rtString = null;
 		
-		String sqlstr = " select _id,phrase FROM Hitokoto ORDER BY RANDOM();";
+		String sqlstr = "select _id,phrase FROM Hitokoto ORDER BY RANDOM();";
 			try{
 				//トランザクション開始
 				SQLiteCursor cursor =(SQLiteCursor)db.rawQuery(sqlstr,null);
