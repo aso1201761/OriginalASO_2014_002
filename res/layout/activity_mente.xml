@@ -5,11 +5,10 @@
     android:orientation="vertical" >
 
     <ListView
-        android:id="@+id/listView1"
+        android:id="@+id/LvHITOKOTO"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_marginTop="30dp" >
-
+        android:layout_weight="0.33" >
     </ListView>
 
     <LinearLayout
@@ -18,27 +17,22 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/btnMente"
-            style="android:attr/buttonBarbuttonStyle"
+            android:id="@+id/btnMAINTE_BACK"
+            style="android:buttonBurButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="45dp"
-            android:layout_marginTop="30dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="10dp"
             android:text="@string/back" />
 
         <Button
-            android:id="@+id/btnReg"
-            style="android:attr/buttonBarbuttonStyle"
+            android:id="@+id/btnDELETE"
+            style="android:buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
-            android:layout_marginTop="30dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
             android:text="@string/delete" />
-
     </LinearLayout>
 
 </LinearLayout>
