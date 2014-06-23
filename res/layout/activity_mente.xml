@@ -7,8 +7,8 @@
     <ListView
         android:id="@+id/LvHITOKOTO"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_weight="0.33" >
+        android:layout_height="300dp" >
+
     </ListView>
 
     <LinearLayout
@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="65dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="50dp"
             android:text="@string/back" />
 
         <Button
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="50dp"
             android:text="@string/delete" />
     </LinearLayout>
 
